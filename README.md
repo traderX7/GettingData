@@ -9,6 +9,7 @@ This repo is provided for the assignment of course project on "Getting and Clean
 What is the assignment?
 ------------------------
 The assignment is to perform something of data preparation as follows;
+
 0) downloads data sets from the website below which is composed of several files.
     url is : https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
@@ -31,7 +32,7 @@ First of all, we considered the whole structure of files. We thought David Hood 
 
 a) Read the necessary files into R and combined the train and test files of X, y and subject each. Confirmed if their dimensions are appropriate.
 
-b) y_file is activity data described in number. Replaced them with words which are corresponded to the number described in "activity_label.txt".
+b) y_file is activity data described in number. Replaced them with words which are corresponded to the number described in "activity_labels.txt".
 
 c) made column names of features file more readable. For example, removed " () -" and replaced "mean" and "std" with "Mean" and "Std" respectively. Before that, changed "meanFreq" into "meaFreq" in order to not include them in "mean" extraction because "meanFreq" is different from "mean".
 
