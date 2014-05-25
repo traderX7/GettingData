@@ -34,9 +34,10 @@ maxInds(): index of the frequency component with largest magnitude
 
 meanFreq(): Weighted average of the frequency components to obtain a mean frequency 
 
+
 I removed () and - from the names and replaced mean and std with "Mean" and "Std" for better readability. I didn't extracted meanFreq columns because they seem different from mean data (see above).
 
-As a result, I got 75 columns (see the below) which is more by 7 columns than those who says "mean" or "std" involved columns are 66 on Forum. The reason of the difference is that I include something like "angle(tBodyAccMean,gravity)" but they don't. Maybe grep function worked differently. To be honest, I don't care so much, because  it's not so important thinking of the sequent analysis that will make a judgement which column is important for a model. 
+As a result, I got 75 columns (see the below) which is more by 7 columns than those who say on Forum that they are 66. The reason of the difference is that I include something like "angle(tBodyAccMean,gravity)" but they don't. Maybe grep function worked differently. To be honest, I don't care so much, because  it's not so important thinking of the sequent analysis that will make a judgement which column is important for a model. 
 
   
 "1" "Activity"
